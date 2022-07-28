@@ -1,0 +1,30 @@
+
+
+
+// Instantiate the module
+CU instance_name (
+    .op(op), 
+    .funct(funct), 
+    .rt_op(rt_op), 
+    .ACmpB(ACmpB), 
+    .ACmp0(ACmp0), 
+    .cal_r(cal_r), 
+    .cal_i(cal_i), 
+    .load(load), 
+    .store(store), 
+    .branch(branch), 
+    .j_addr(j_addr), 
+    .j_link(j_link), 
+    .j_reg(j_reg), 
+    .NPCOp(NPCOp), 
+    .EXTOp(EXTOp), 
+    .ALUOp(ALUOp), 
+    .DMOp(DMOp), 
+    .RFWr(RFWr), 
+    .DMWr(DMWr), 
+    .GRFA3Sel(GRFA3Sel), 
+    .ALUBSel(ALUBSel), 
+    .GRFWDSel(GRFWDSel)
+    );
+
+

@@ -1,0 +1,12 @@
+epoch: 1, result = True
+epoch: 2, result = True
+epoch: 3, result = True
+Failure in: P5_andi+or_T1.asm  epoch: 4, result = False
+epoch: 5, result = True
+epoch: 6, result = True
+epoch: 7, result = True
+epoch: 8, result = True
+epoch: 9, result = True
+epoch: 10, result = True
+epoch: 11, result = True
+epoch: 12, result = True

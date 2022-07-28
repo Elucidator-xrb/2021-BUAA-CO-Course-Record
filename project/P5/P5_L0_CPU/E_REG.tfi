@@ -1,0 +1,21 @@
+
+
+
+// Instantiate the module
+E_REG instance_name (
+    .Clk(Clk), 
+    .Rst(Rst), 
+    .We(We), 
+    .IR_in(IR_in), 
+    .PC_in(PC_in), 
+    .EXT_in(EXT_in), 
+    .V1_in(V1_in), 
+    .V2_in(V2_in), 
+    .IR_out(IR_out), 
+    .PC_out(PC_out), 
+    .EXT_out(EXT_out), 
+    .V1_out(V1_out), 
+    .V2_out(V2_out)
+    );
+
+

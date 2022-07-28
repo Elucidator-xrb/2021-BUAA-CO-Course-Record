@@ -1,0 +1,27 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/CU.v,1642599044,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/D_CMP.v,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/const.v,CU,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/D_CMP.v,1640081904,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/D_EXT.v,,D_CMP,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/D_EXT.v,1642599062,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/D_GRF.v,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/const.v,D_EXT,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/D_GRF.v,1642599052,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/D_LEVEL.v,,D_GRF,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/D_LEVEL.v,1642598991,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/D_NPC.v,,D_LEVEL,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/D_NPC.v,1638856246,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/D_REG.v,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/const.v,D_NPC,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/D_REG.v,1642599001,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/E_ALU.v,,D_REG,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/E_ALU.v,1640690634,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/E_HILO.v,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/const.v,E_ALU,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/E_HILO.v,1640663264,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/E_LEVEL.v,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/const.v,E_HILO,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/E_LEVEL.v,1640676978,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/E_REG.v,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/const.v,E_LEVEL,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/E_REG.v,1640016392,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/IFU.v,,E_REG,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/IFU.v,1640667824,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/M_BE.v,,IFU,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/M_BE.v,1640677946,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/M_DEXT.v,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/const.v,M_BE,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/M_DEXT.v,1640677874,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/M_LEVEL.v,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/const.v,M_DEXT,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/M_LEVEL.v,1640676996,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/M_REG.v,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/const.v,M_LEVEL,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/M_REG.v,1640656286,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/SU.v,,M_REG,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/P7_L0_CPU.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/SU.v,1640663098,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/W_LEVEL.v,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/const.v,SU,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/W_LEVEL.v,1640664204,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/W_REG.v,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/const.v,W_LEVEL,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/W_REG.v,1640657444,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/mips.v,,W_REG,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/const.v,1640674620,verilog,,,,,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/mips.v,1640677798,verilog,,D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/mips_tb2.v,,mips,,,,,,,,
+D:/0_Personal_File/Grade2_01_Autumn/CO/P7/P7_L0_CPU/mips_tb2.v,1642605645,verilog,,,,mips_tb2,,,,,,,,

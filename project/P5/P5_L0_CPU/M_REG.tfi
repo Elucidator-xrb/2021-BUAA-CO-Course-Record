@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+M_REG instance_name (
+    .Clk(Clk), 
+    .Rst(Rst), 
+    .We(We), 
+    .IR_in(IR_in), 
+    .PC_in(PC_in), 
+    .Y_in(Y_in), 
+    .V2_in(V2_in), 
+    .IR_out(IR_out), 
+    .PC_out(PC_out), 
+    .Y_out(Y_out), 
+    .V2_out(V2_out)
+    );
+
+

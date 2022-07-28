@@ -1,0 +1,22 @@
+
+
+
+// Instantiate the module
+datapath instance_name (
+    .Clk(Clk), 
+    .Rst(Rst), 
+    .NPCOp(NPCOp), 
+    .EXTOp(EXTOp), 
+    .ALUOp(ALUOp), 
+    .SSel(SSel), 
+    .LSel(LSel), 
+    .M1Sel(M1Sel), 
+    .M2Sel(M2Sel), 
+    .M3Sel(M3Sel), 
+    .RFWr(RFWr), 
+    .DMWr(DMWr), 
+    .op(op), 
+    .funct(funct)
+    );
+
+

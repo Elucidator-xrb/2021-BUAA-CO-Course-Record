@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+IFU instance_name (
+    .Clk(Clk), 
+    .Rst(Rst), 
+    .IMM(IMM), 
+    .RA(RA), 
+    .NPCOp(NPCOp), 
+    .Zero(Zero), 
+    .PC4(PC4), 
+    .IM_D(IM_D), 
+    .PC_sgn(PC_sgn)
+    );
+
+

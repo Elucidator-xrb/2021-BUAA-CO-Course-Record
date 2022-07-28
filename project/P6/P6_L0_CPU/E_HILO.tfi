@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+E_HILO instance_name (
+    .Clk(Clk), 
+    .Rst(Rst), 
+    .HILOOp(HILOOp), 
+    .D1(D1), 
+    .D2(D2), 
+    .IsBusy(IsBusy), 
+    .Out(Out)
+    );
+
+

@@ -1,0 +1,24 @@
+
+
+
+// Instantiate the module
+W_LEVEL instance_name (
+    .Clk(Clk), 
+    .Rst(Rst), 
+    .We(We), 
+    .IR_in(IR_in), 
+    .PC_in(PC_in), 
+    .DR_in(DR_in), 
+    .Y_in(Y_in), 
+    .A3_out(A3_out), 
+    .WD_out(WD_out), 
+    .RFWr_out(RFWr_out), 
+    .IR_out(IR_out), 
+    .PC_out(PC_out), 
+    .W_RFA3_out(W_RFA3_out), 
+    .W_RFWD_out(W_RFWD_out), 
+    .W_RFWr_out(W_RFWr_out), 
+    .W_Forward_Ready(W_Forward_Ready)
+    );
+
+

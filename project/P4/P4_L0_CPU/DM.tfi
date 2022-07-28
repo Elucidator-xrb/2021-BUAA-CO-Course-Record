@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+DM instance_name (
+    .PC(PC), 
+    .Clk(Clk), 
+    .Rst(Rst), 
+    .A(A), 
+    .WD(WD), 
+    .DMWr(DMWr), 
+    .SSel(SSel), 
+    .LSel(LSel), 
+    .RD(RD)
+    );
+
+

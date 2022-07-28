@@ -1,0 +1,112 @@
+ori $t0, $0, 8
+ori $t1, $0, 9
+addu $t2, $t0, $t1
+# W_alu转E_rs ; M_alu转E_rt
+# 交换$t0 $t1顺序 则可检测： W_alu转E_rt ; M_alu转E_rs
+
+
+ori $t0, $0, 4
+lui $t7, 0x1234
+sw $t7, 4($t0)
+lw $t8, 4($t0)
+sw $t8, 8($t0)
+# W_alu转M_rt ; W_dm转M_rt ; W_alu转E_rs
+
+
+ori $t0, $0, 4
+ori $t1, $0, 0x55
+sw $t1, 4($t0)   # above tested already, assum it's right
+lw $t5, 4($t0)
+nop
+addu $t6, $t5, $t5
+# W_dm转E_rs ; W_dm转E_rt
+
+
+ori $t3, $0, 3
+ori $t4, $0, 4
+ori $t5, $0, 4
+sw $t5, 4($0)
+lw $t3, 4($0)
+nop
+nop
+beq $t3, $t4, label
+nop
+nop
+addu $t0, $t3, $t4
+label:
+lui $t1, 0x1111
+nop
+# W_dm转D_rs ; 交换$t3 $t4位置 W_dm转D_rt
+# 去掉lw后两个nop，检验了lw接beq的暂停正确
+
+
+ori $t1, $0, 10
+ori $t2, $0, 6
+nop
+nop
+ori $t1, $0, 5
+ori $t2, $0, 5
+beq $t1, $t2, loop
+nop
+addu $t8, $t1, $t2
+loop:
+lui $t9, 10
+# W_alu转D_rs ; M_alu转D_rt 
+# 交换beq中$t1 $t2后可测 : W_alu转D_rt ; M_alu转D_rs
+
+
+ori $t0, $0, 8
+jal loop
+sw $ra, 4($t0)
+lui $t1, 8
+loop:
+lw $t2, 4($t0)
+# W_pc8转M_rt
+
+
+ori $t0, $0, 8
+ori $t3, $0, 0x3010
+jal loop
+nop
+sw $ra, 4($t0)
+lui $t1, 8
+loop:
+addu $t2, $ra, $ra
+beq $ra, $t3, branch
+nop
+jr $ra
+nop
+branch:
+lui $t3, 12
+# W_pc8转E_rs ; W_pc8转E_rt
+# W_pc8转D_rs; 交换$ra $t3后可测: W_pc8转D_rt
+
+
+ori $s0, $0, 0x300c
+ori $s3, $0, 0x3010
+ori $s4, $0, 8
+jal loop
+nop
+sw $ra, 4($s4)
+addu $s0, $s0, $s4
+lui $t1, 8
+loop:
+addu $t2, $t2, $ra
+beq $ra, $s0, branch
+nop
+jr $ra
+nop
+branch:
+lui $t3, 12
+# beq的另一种情形，完整的jal和jr组合？
+
+jal label
+addu $31, $31, $31
+ori $t2, $1, 0xff00
+label:
+addu $2, $31, $31
+addu $3, $31, $31
+addu $4, $31, $31
+addu $5, $31, $31
+ori $t3, $0, 20
+# E_pc8 M_pc8转D_rs D_rt

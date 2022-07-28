@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+M_DM instance_name (
+    .WPC(WPC), 
+    .Clk(Clk), 
+    .Rst(Rst), 
+    .DMWr(DMWr), 
+    .A(A), 
+    .WD(WD), 
+    .DMOp(DMOp), 
+    .RD(RD)
+    );
+
+

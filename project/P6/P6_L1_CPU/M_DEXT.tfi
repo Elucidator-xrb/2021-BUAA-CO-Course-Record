@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+M_DEXT instance_name (
+    .Addr(Addr), 
+    .Data(Data), 
+    .DMOp(DMOp), 
+    .Dout(Dout)
+    );
+
+

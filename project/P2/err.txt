@@ -1,0 +1,12 @@
+Exception in thread "MIPS" java.lang.NullPointerException: Cannot invoke "String.trim()" because "input" is null
+	at mars.util.SystemIO.readInteger(SystemIO.java:102)
+	at mars.mips.instructions.syscalls.SyscallReadInt.simulate(SyscallReadInt.java:57)
+	at mars.mips.instructions.InstructionSet.findAndSimulateSyscall(InstructionSet.java:3241)
+	at mars.mips.instructions.InstructionSet.access$200(InstructionSet.java:47)
+	at mars.mips.instructions.InstructionSet$63.simulate(InstructionSet.java:1196)
+	at mars.simulator.Simulator$SimThread.construct(Simulator.java:346)
+	at mars.simulator.SwingWorker$2.run(SwingWorker.java:115)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+Program terminated when maximum step limit -1 reached.
+

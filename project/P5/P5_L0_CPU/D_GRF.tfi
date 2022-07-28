@@ -1,0 +1,18 @@
+
+
+
+// Instantiate the module
+D_GRF instance_name (
+    .WPC(WPC), 
+    .Clk(Clk), 
+    .Rst(Rst), 
+    .RFWr(RFWr), 
+    .A1(A1), 
+    .A2(A2), 
+    .A3(A3), 
+    .WD(WD), 
+    .RD1(RD1), 
+    .RD2(RD2)
+    );
+
+

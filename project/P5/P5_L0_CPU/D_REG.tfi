@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+D_REG instance_name (
+    .Clk(Clk), 
+    .Rst(Rst), 
+    .We(We), 
+    .IR_in(IR_in), 
+    .PC_in(PC_in), 
+    .IR_out(IR_out), 
+    .PC_out(PC_out)
+    );
+
+
