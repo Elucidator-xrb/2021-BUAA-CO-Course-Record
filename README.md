@@ -13,7 +13,7 @@
   - P3/ : logisim - 单周期cpu
   - P4/ : verilog - 单周期cpu
   - P5/ : verilog - 流水线cpu；这一关落马了qwq
-  - P6/ : verilog - 流水线cpu-50指令；通过课下，但是课上访存指令有莫名错误没有ak，疑似有bug
+  - P6/ : verilog - 流水线cpu-50指令；通过课上，但因访存指令有莫名错误没有ak，疑似有bug
   - P7/ : verilog - 流水线cpu-部分中断/异常处理；来不及咯，事后通过龙芯的sram功能测试
   
 ## info
